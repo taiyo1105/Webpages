@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header, footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: #333;
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px #7db4e6;/*上線*/
+  border-bottom: solid 3px #7db4e6;/*下線*/
+}
+
+h3 {
+  padding: 0.25em 0.5em;/*上下、左右の余白*/
+  color: #333;
+  background: transparent;/*背景透明化*/
+  border-left: solid 5px #7db4e6;/*左に青線*/
+}
+
+.post-list article {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.date {
+  color: #666;
+  font-size: 0.9em;
+}
